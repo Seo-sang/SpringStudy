@@ -11,7 +11,6 @@ public class IndexController implements Controller {
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("---------------------");
 		ModelAndView mv = new ModelAndView("root.index");
 		mv.addObject("data", "Hello Spring MVC~");
 		//mv.setViewName("/WEB-INF/view/index.jsp");
