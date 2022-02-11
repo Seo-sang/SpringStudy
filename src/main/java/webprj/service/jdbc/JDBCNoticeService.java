@@ -65,7 +65,6 @@ public class JDBCNoticeService implements NoticeService {
 		    				);
 
 		    list.add(notice);
-		    //System.out.printf("%\n", id);
 		}
 
 		
